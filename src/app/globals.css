@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap');
+
+
+
+@import "tailwindcss";
+
+@theme {
+    --font-Montserrat: "Montserrat", sans-serif;
+    --font-Dm-sans: "DM Sans", sans-serif;
+    --font-uthmani: "Uthmani", sans-serif;
+    --font-amiri: "Amiri Quran", serif;
+}
+
+:root {
+    --d-color: red; 
+}
+
+@font-face {
+  font-family: 'Uthmani';
+  src: url('/fonts/PDMS_Saleem_QuranFont_shipped.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.quran-text {
+  -webkit-mask-image: linear-gradient(black, black);
+  mask-image: linear-gradient(black, black);
+  color: black; /* The color you want */
+}
+
+.Active-seted {
+  /* hover:flex-[2] focus:flex-[2] hover:text-white focus:text-white hover:bg-[#004876] focus:bg-[#004876] */
+  flex: 2;
+  color: white;
+  background: #004876;
+}
+
+/* hover:bg-[#004876] hover:text-white hover:border-0 hover:scale-[1.03] hover:rounded-2xl */
+.card-active {
+  background: #004876;
+  color: white;
+  scale: 1.03;
+  border-radius: 1rem;
+}
