@@ -15,8 +15,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className=" relative my-[11px] mx-5 ">
-        <Header />
+      <body className=" relative my-[5px] md:my-[11px] mx-2 md:mx-5">
+        {/* <Header /> */}
         <Main />
       </body>
     </html>

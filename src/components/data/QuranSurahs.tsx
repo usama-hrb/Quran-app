@@ -2,7 +2,7 @@ const QuranSurahs = [
   {
     id: "01",
     surahName: "Al-Faatiha",
-    surahNameArabic: "الفاتحة",
+    surahNameArabic: "ٱلْفَاتِحَةُ",
     surahNameArabicLong: "سُورَةُ ٱلْفَاتِحَةِ",
     surahNameTranslation: "The Opening",
     revelationPlace: "Mecca",
@@ -11,7 +11,7 @@ const QuranSurahs = [
   {
     id: "02",
     surahName: "Al-Baqara",
-    surahNameArabic: "البقرة",
+    surahNameArabic: "ٱلْبَقَرَةُ",
     surahNameArabicLong: "سورة البقرة",
     surahNameTranslation: "The Cow",
     revelationPlace: "Madina",
@@ -20,7 +20,7 @@ const QuranSurahs = [
   {
     id: "03",
     surahName: "Aal-i-Imraan",
-    surahNameArabic: "آل عمران",
+    surahNameArabic: "ءَالِ عِمْرَانَ",
     surahNameArabicLong: "سورة آل عمران",
     surahNameTranslation: "The Family of Imraan",
     revelationPlace: "Madina",
@@ -29,7 +29,7 @@ const QuranSurahs = [
   {
     id: "04",
     surahName: "An-Nisaa",
-    surahNameArabic: "النساء",
+    surahNameArabic: "ٱلنِّسَآءُ",
     surahNameArabicLong: "سورة النساء",
     surahNameTranslation: "The Women",
     revelationPlace: "Madina",
@@ -38,7 +38,7 @@ const QuranSurahs = [
   {
     id: "05",
     surahName: "Al-Maaida",
-    surahNameArabic: "المائدة",
+    surahNameArabic: "ٱلْمَآئِدَةُ",
     surahNameArabicLong: "سورة المائدة",
     surahNameTranslation: "The Table",
     revelationPlace: "Madina",
@@ -47,7 +47,7 @@ const QuranSurahs = [
   {
     id: "06",
     surahName: "Al-An'aam",
-    surahNameArabic: "الأنعام",
+    surahNameArabic: "ٱلْأَنْعَامُ",
     surahNameArabicLong: "سورة الأنعام",
     surahNameTranslation: "The Cattle",
     revelationPlace: "Mecca",
@@ -56,7 +56,7 @@ const QuranSurahs = [
   {
     id: "07",
     surahName: "Al-A'raaf",
-    surahNameArabic: "الأعراف",
+    surahNameArabic: "ٱلْأَعْرَافُ",
     surahNameArabicLong: "سورة الأعراف",
     surahNameTranslation: "The Heights",
     revelationPlace: "Mecca",
@@ -65,7 +65,7 @@ const QuranSurahs = [
   {
     id: "08",
     surahName: "Al-Anfaal",
-    surahNameArabic: "الأنفال",
+    surahNameArabic: "ٱلْأَنْفَالُ",
     surahNameArabicLong: "سورة الأنفال",
     surahNameTranslation: "The Spoils of War",
     revelationPlace: "Madina",
@@ -74,7 +74,7 @@ const QuranSurahs = [
   {
     id: "09",
     surahName: "At-Tawba",
-    surahNameArabic: "التوبة",
+    surahNameArabic: "ٱلتَّوْبَةُ",
     surahNameArabicLong: "سورة التوبة",
     surahNameTranslation: "The Repentance",
     revelationPlace: "Madina",
@@ -83,7 +83,7 @@ const QuranSurahs = [
   {
     id: "10",
     surahName: "Yunus",
-    surahNameArabic: "يونس",
+    surahNameArabic: "يُونُسُ",
     surahNameArabicLong: "سورة يونس",
     surahNameTranslation: "Jonas",
     revelationPlace: "Mecca",
@@ -92,7 +92,7 @@ const QuranSurahs = [
   {
     id: "11",
     surahName: "Hud",
-    surahNameArabic: "هود",
+    surahNameArabic: "هُودٌ",
     surahNameArabicLong: "سورة هود",
     surahNameTranslation: "Hud",
     revelationPlace: "Mecca",
@@ -101,7 +101,7 @@ const QuranSurahs = [
   {
     id: "12",
     surahName: "Yusuf",
-    surahNameArabic: "يوسف",
+    surahNameArabic: "يُوسُفُ",
     surahNameArabicLong: "سورة يوسف",
     surahNameTranslation: "Joseph",
     revelationPlace: "Mecca",
@@ -110,7 +110,7 @@ const QuranSurahs = [
   {
     id: "13",
     surahName: "Ar-Ra'd",
-    surahNameArabic: "الرعد",
+    surahNameArabic: "ٱلرَّعْدُ",
     surahNameArabicLong: "سورة الرعد",
     surahNameTranslation: "The Thunder",
     revelationPlace: "Madina",
@@ -119,7 +119,7 @@ const QuranSurahs = [
   {
     id: "14",
     surahName: "Ibrahim",
-    surahNameArabic: "ابراهيم",
+    surahNameArabic: "إِبْرَاهِيمُ",
     surahNameArabicLong: "سورة ابراهيم",
     surahNameTranslation: "Abraham",
     revelationPlace: "Mecca",
@@ -128,7 +128,7 @@ const QuranSurahs = [
   {
     id: "15",
     surahName: "Al-Hijr",
-    surahNameArabic: "الحجر",
+    surahNameArabic: "ٱلْحِجْرُ",
     surahNameArabicLong: "سورة الحجر",
     surahNameTranslation: "The Rock",
     revelationPlace: "Mecca",

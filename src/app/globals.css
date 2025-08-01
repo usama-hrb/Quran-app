@@ -44,4 +44,19 @@
   color: white;
   scale: 1.03;
   border-radius: 1rem;
+  border: solid 2px white;
+}
+
+@layer utilities {
+  .custom-scrollbar::-webkit-scrollbar {
+    width: .3rem;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #B8C2C8;
+    border-radius: 50px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #004876; /* tailwind blue-500 */
+    border-radius: 50px;
+  }
 }
