@@ -16,10 +16,10 @@ export default function Main() {
   return (
     <main>
       {/* main section cover ... */}
-      <div className="min-h-full w-full flex flex-col bg-[url('/quran-bg.svg')]  bg-size-cover md:bg-size-cover lg:bg-size-[100%] bg-center bg-no-repeat font-Dm-sans rounded-4xl overflow-x-hidden">
+      <div className="min-h-full w-full flex flex-col bg-[url('/quran-bg.svg')]  bg-cover bg-center bg-no-repeat font-Dm-sans rounded-4xl overflow-x-hidden">
         <div>
-          <div className="ml-10 md:ml-25 lg:ml-45 flex flex-col items-start">
-            <h1 className="mt-25 md:mt-25 lg:mt-40 font-bold text-[5.2vw] text-white">
+          <div className="ml-10 md:ml-25 lg:ml-27 2xl:ml-45 flex flex-col items-start">
+            <h1 className="mt-25 md:mt-25 lg:mt-30 2xl:mt-40 font-bold text-[5.2vw] text-white">
               Quran, Podcasts, Fatwas
             </h1>
             <h1 className="text-[3.9vw] text-white">
@@ -27,32 +27,32 @@ export default function Main() {
             </h1>
           </div>
           {/* Circle divider */}
-          <div className="mt-4 md-10 lg:mt-18 flex items-center justify-center gap-2 md:gap-6 lg:gap-15">
-            <div className="w-1/3 lg:w-[40%] border border-[#767676]" />
+          <div className="mt-4 md-10 lg:mt-14 2xl:mt-18 flex items-center justify-center gap-2 md:gap-6 lg:gap-10 2xl:gap-15">
+            <div className="w-1/3  2xl:w-[40%] border border-[#767676]" />
             <img src={"/circle.svg"} className="w-[2rem] md:w-fit " />
-            <div className="w-1/3 lg:w-[40%] border border-[#767676]" />
+            <div className="w-1/3 2xl:w-[40%] border border-[#767676]" />
           </div>
-          <p className="text-white text-center text-[1rem] md:text-[1.5rem] lg:text-[2rem] mt-4 md:mt-8 lg:mt-17">
+          <p className="text-white text-center text-[1rem] md:text-[1.5rem] lg:text-[2rem] mt-4 md:mt-8 2xl:mt-17">
             Read Quran, listen to podcasts, get fatwas, and <br />
             learn Islam all in one place.
           </p>
           {/* Quran Player */}
-          <div className="flex flex-col items-center md:flex-row mt-4 md:mt-8 lg:mt-15 mb-7 md:mb-25 lg:mb-40 justify-center gap-3 md:gap-10 lg:gap-20">
-            <div className="mb-8 md:mb-0 bg-white w-[80%] lg:w-120 h-35 md:h-52 rounded-2xl px-[20px] py-[6rem] md:py-[25px] font-Montserrat flex flex-col justify-center">
+          <div className="flex flex-col items-center md:flex-row mt-4 md:mt-8 2xl:mt-15 mb-7 md:mb-25 2xl:mb-40 justify-center gap-3 md:gap-10 2xl:gap-20">
+            <div className="mb-8 md:mb-0 bg-white w-[80%] 2xl:w-120 h-35 md:h-52 rounded-2xl px-[20px] py-[6rem] md:py-[25px] font-Montserrat flex flex-col justify-center">
               <h3 className="text-[#6E7077]">Quran (Surah)</h3>
               <h3 className="text[#333333] mt-[.5] md:mt-1">
                 Surah Al-Fatihah (Omar Al Kazabri)
               </h3>
-              <div className="flex items-center mt-3 md:mt-4 lg:mt-5">
+              <div className="flex items-center mt-3 md:mt-4 2xl:mt-5">
                 <div className="w-[50%] h-0 border border-[#039467]"></div>
                 <div className="w-[9px] h-[9px] bg-[#039467] rounded-full"></div>
                 <div className="w-[50%] h-0 border border-[#E8E8E8]"></div>
               </div>
-              <div className="flex justify-between mt-1.5 md:mt-1.7 lg:mt-2">
+              <div className="flex justify-between mt-1.5 md:mt-1.7 2xl:mt-2">
                 <h4 className="text-[#6E7077]">01:32</h4>
                 <h4 className="text-[#333333]">03:24</h4>
               </div>
-              <div className="flex justify-between mt-2 md:3.5 lg:mt-5">
+              <div className="flex justify-between mt-2 md:3.5 2xl:mt-5">
                 <img src="/repeat 1.svg" />
                 <div className="flex gap-10">
                   <img className="w-4" src="/Vector-2.svg" />
@@ -62,25 +62,25 @@ export default function Main() {
                 <img src="/shuffle 1.svg" />
               </div>
             </div>
-            <div className="hidden md:hidden lg:block">
+            <div className="hidden md:hidden 2xl:block">
               <img src="/right-section.svg" alt="" />
             </div>
           </div>
         </div>
       </div>
       {/* Quran part */}
-      <div className="mt-5 md:mt-15 ml-8 md:ml-15 lg:ml-20">
-        <h2 className="font-bold font-Dm-sans text-[4vw] md:text-[3vw] text-[#333333]">
+      <div className="mt-5 md:mt-8 lg:mt-12 2xl:mt-15 ml-8 2xl:ml-20">
+        <h2 className="font-bold font-Dm-sans text-[4vw] md:text-[4vw] 2xl:text-[3vw] text-[#333333]">
           Embark on your journey of faith
         </h2>
-        <h2 className="font-bold font-Dm-sans text-[4vw] md:text-[3vw] text-[#333333]">
+        <h2 className="font-bold font-Dm-sans text-[4vw] md:text-[4vw] 2xl:text-[3vw] text-[#333333]">
           And understanding
         </h2>
-        <div className="flex justify-between mt-5 md:mt-8">
-          <div className="transition-all duration-150 flex justify-between gap-2 border px-1 py-1 rounded-full w-[40rem] md:w-[28rem] border-2 border-[#D1D1D1]">
+        <div className="flex justify-between mt-5 2xl:mt-8">
+          <div className="transition-all duration-150 flex justify-between gap-2 border px-1 py-1 rounded-full w-[40rem] md:w-[24rem] 2xl:w-[28rem] border-2 border-[#D1D1D1]">
             <button
               onClick={() => setActive("Surah")}
-              className={`font-bold text-lg flex-1 basis-0 rounded-full px-5 py-2 transition-all duration-300 ease-in-out ${
+              className={`font-bold text-lg md:text-sm lg:text-base 2xl:text-lg flex-1 basis-0 rounded-full px-5 py-2 transition-all duration-300 ease-in-out ${
                 active === "Surah" || active === "" ? "Active-seted" : ""
               } hover:flex-[2] hover:text-white hover:bg-[#004876]`}
             >
@@ -88,7 +88,7 @@ export default function Main() {
             </button>
             <button
               onClick={() => setActive("Juz'")}
-              className={`font-bold text-lg flex-1 basis-0 rounded-full px-5 py-2 transition-all duration-300 ease-in-out ${
+              className={`font-bold text-lg md:text-sm lg:text-base 2xl:text-lg flex-1 basis-0 rounded-full px-5 py-2 transition-all duration-300 ease-in-out ${
                 active === "Juz'" ? "Active-seted" : ""
               } hover:flex-[2] hover:text-white hover:bg-[#004876]`}
             >
@@ -96,7 +96,7 @@ export default function Main() {
             </button>
             <button
               onClick={() => setActive("Order")}
-              className={`whitespace-nowrap font-bold text-lg flex-1 basis-0 rounded-full px-5 py-2 transition-all duration-300 ease-in-out ${
+              className={`whitespace-nowrap font-bold text-lg md:text-sm lg:text-base 2xl:text-lg flex-1 basis-0 rounded-full px-5 py-2 transition-all duration-300 ease-in-out ${
                 active === "Order" ? "Active-seted" : ""
               } hover:flex-[2] hover:text-white hover:bg-[#004876]`}
             >
@@ -105,25 +105,25 @@ export default function Main() {
           </div>
           <div className="hidden md:block relative mr-20">
             <img
-              className="absolute top-1/5 left-6"
+              className="absolute top-1/5 left-5"
               src="/Search.svg"
               alt="Search"
             />
             <input
-              className="transition-all duration-150 py-4 pl-16 rounded-full border-2 border-[#D1D1D1] w-[28rem]  hover:border-[#004876] focus:border-[#004876] outline-none"
+              className="transition-all duration-150 py-4 pl-16 rounded-full border-2 border-[#D1D1D1] w-[28rem] md:w-[15rem]  hover:border-[#004876] focus:border-[#004876] outline-none"
               type="text"
-              placeholder="Input your reading preferences"
+              placeholder="Input Surah/ayah"
             />
           </div>
         </div>
         <section className="mr-8 md:mr-20">
           <div className="flex justify-between pt-8 ">
-            <h4 className="text-sm md:text-lg font-Montserrat">
+            <h4 className="text-sm md:text-base 2xl:text-lg font-Montserrat">
               <span className="text-[#D1D1D1]">Sort by: </span> Ascending
             </h4>
             <div className="flex">
               <Link
-                className="text-sm md:text-lg h-7 pl-50 pr-2 text-[#004876] underline"
+                className="text-sm md:text-base 2xl:text-lg h-7 pl-50 pr-2 text-[#004876] underline"
                 href={"#"}
               >
                 See All Surahs
@@ -136,14 +136,22 @@ export default function Main() {
             <img src={"/dark-circle.svg"} className="w-fit" />
             <div className="w-[50%] border-[1.5] border-[#D1D1D1]" />
           </div>
-          <div className="mt-4 md:mt-14 flex justify-center w-full items-center gap-10">
-            <span className="hidden md:block">
+          <div className="mt-4 md:mt-5 2xl:mt-8 flex justify-center w-full items-center xl:gap-5 2xl:gap-12 gap-10">
+            <span className="lg:hidden">
+              <OrderCard
+                    active={activeCardList}
+                    setActive={setactiveCardList}
+                  />
+            </span>
+            <span className="hidden lg:block">
               <Cards index={0} active={activeCard} setActive={setactiveCard} />
             </span>
-            <div className="hidden md:block border border-[#DADADA] h-140 "></div>
-            <Cards index={1} active={activeCard} setActive={setactiveCard} />
-            <div className="hidden md:block border border-[#DADADA] h-140"></div>
-            <span className="hidden md:block">
+            <div className="hidden lg:block border border-[#DADADA] h-140 "></div>
+            <span className="hidden lg:block" >
+              <Cards index={1} active={activeCard} setActive={setactiveCard} />
+            </span>
+            <div className="hidden lg:block border border-[#DADADA] h-140"></div>
+            <span className="hidden lg:block">
               <Cards index={2} active={activeCard} setActive={setactiveCard} />
             </span>
           </div>
@@ -248,8 +256,8 @@ export default function Main() {
           </div> */}
 
           {/* Boooks section */}
-{/* 
-          <div className="px-25 p-0 flex flex-col mt-20 w-full h-screen justify-center">
+
+          {/* <div className="px-25 p-0 flex flex-col mt-20 w-full h-screen justify-center">
             <div className="flex items-center justify-between mb-8">
               <h2 className="font-bold font-Dm-sans text-[4vw] text-[#333333]">
                 Read Islamic Books
