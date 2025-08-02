@@ -14,15 +14,15 @@ export default function Main() {
   const [activeCardList, setactiveCardList] = useState("02");
 
   return (
-    <main>
+    <main className="w-full">
       {/* main section cover ... */}
-      <div className="min-h-full w-full flex flex-col bg-[url('/quran-bg.svg')]  bg-cover bg-center bg-no-repeat font-Dm-sans rounded-4xl overflow-x-hidden">
+      <div className="min-h-full w-full flex flex-col bg-[url('/quran-bg.svg')]  border-red-400 bg-cover bg-center bg-no-repeat font-Dm-sans rounded-4xl overflow-x-hidden">
         <div>
-          <div className="ml-10 md:ml-25 lg:ml-27 2xl:ml-45 flex flex-col items-start">
-            <h1 className="mt-25 md:mt-25 lg:mt-30 2xl:mt-40 font-bold text-[5.2vw] text-white">
+          <div className="ml-10 md:ml-16 lg:ml-24 2xl:ml-40 flex flex-col items-start">
+            <h1 className="mt-25 md:mt-25 lg:mt-30 2xl:mt-40 font-bold text-3xl md:text-5xl lg:text-6xl 2xl:text-7xl text-white">
               Quran, Podcasts, Fatwas
             </h1>
-            <h1 className="text-[3.9vw] text-white">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl 2xl:text-7xl text-white">
               Discover Islam Anytime, Anywhere
             </h1>
           </div>
@@ -38,7 +38,7 @@ export default function Main() {
           </p>
           {/* Quran Player */}
           <div className="flex flex-col items-center md:flex-row mt-4 md:mt-8 2xl:mt-15 mb-7 md:mb-25 2xl:mb-40 justify-center gap-3 md:gap-10 2xl:gap-20">
-            <div className="mb-8 md:mb-0 bg-white w-[80%] 2xl:w-120 h-35 md:h-52 rounded-2xl px-[20px] py-[6rem] md:py-[25px] font-Montserrat flex flex-col justify-center">
+            <div className="mb-8 md:mb-0 bg-white    h-35 md:h-52 rounded-2xl px-[20px] py-[6rem] md:py-[25px] font-Montserrat flex flex-col justify-center">
               <h3 className="text-[#6E7077]">Quran (Surah)</h3>
               <h3 className="text[#333333] mt-[.5] md:mt-1">
                 Surah Al-Fatihah (Omar Al Kazabri)

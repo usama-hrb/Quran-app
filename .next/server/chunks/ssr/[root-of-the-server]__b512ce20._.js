@@ -423,16 +423,17 @@ function Main() {
     const [activeCard, setactiveCard] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("05");
     const [activeCardList, setactiveCardList] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("02");
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+        className: "w-full",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "min-h-full w-full flex flex-col bg-[url('/quran-bg.svg')]  bg-cover bg-center bg-no-repeat font-Dm-sans rounded-4xl overflow-x-hidden",
+                className: "min-h-full w-full flex flex-col bg-[url('/quran-bg.svg')]  border-red-400 bg-cover bg-center bg-no-repeat font-Dm-sans rounded-4xl overflow-x-hidden",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "ml-10 md:ml-25 lg:ml-27 2xl:ml-45 flex flex-col items-start",
+                            className: "ml-10 md:ml-16 lg:ml-24 2xl:ml-40 flex flex-col items-start",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "mt-25 md:mt-25 lg:mt-30 2xl:mt-40 font-bold text-[5.2vw] text-white",
+                                    className: "mt-25 md:mt-25 lg:mt-30 2xl:mt-40 font-bold text-3xl md:text-5xl lg:text-6xl 2xl:text-7xl text-white",
                                     children: "Quran, Podcasts, Fatwas"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/1 - Main/Main.tsx",
@@ -440,7 +441,7 @@ function Main() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "text-[3.9vw] text-white",
+                                    className: "text-3xl md:text-5xl lg:text-6xl 2xl:text-7xl text-white",
                                     children: "Discover Islam Anytime, Anywhere"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/1 - Main/Main.tsx",
@@ -504,7 +505,7 @@ function Main() {
                             className: "flex flex-col items-center md:flex-row mt-4 md:mt-8 2xl:mt-15 mb-7 md:mb-25 2xl:mb-40 justify-center gap-3 md:gap-10 2xl:gap-20",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "mb-8 md:mb-0 bg-white w-[80%] 2xl:w-120 h-35 md:h-52 rounded-2xl px-[20px] py-[6rem] md:py-[25px] font-Montserrat flex flex-col justify-center",
+                                    className: "mb-8 md:mb-0 bg-white    h-35 md:h-52 rounded-2xl px-[20px] py-[6rem] md:py-[25px] font-Montserrat flex flex-col justify-center",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             className: "text-[#6E7077]",
