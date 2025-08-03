@@ -76,8 +76,8 @@ export default function Main() {
         <h2 className="font-bold font-Dm-sans text-[4vw] md:text-[4vw] 2xl:text-[3vw] text-[#333333]">
           And understanding
         </h2>
-        <div className="flex justify-between mt-5 2xl:mt-8 mr-2 md:mr-0">
-          <div className="transition-all duration-150 flex justify-between gap-2 border px-1 py-1 rounded-full w-[40rem] md:w-[24rem] 2xl:w-[28rem] border-2 border-[#D1D1D1]">
+        <div className="flex justify-between items-center mt-5 2xl:mt-8 mr-2 md:mr-0">
+          {/* <div className="transition-all duration-150 flex justify-between gap-2 border px-1 py-1 rounded-full w-[40rem] md:w-[24rem] 2xl:w-[28rem] border-2 border-[#D1D1D1]">
             <button
               onClick={() => setActive("Surah")}
               className={`font-bold text-lg md:text-sm lg:text-base 2xl:text-lg flex-1 basis-0 rounded-full px-5 py-2 transition-all duration-300 ease-in-out ${
@@ -101,6 +101,32 @@ export default function Main() {
               } hover:flex-[2] hover:text-white hover:bg-[#004876]`}
             >
               Revelation Order
+            </button>
+          </div> */}
+          <div className="transition-all duration-150 flex justify-between gap-1 xl:gap-4 px-1 py-1 rounded-full min-w-80 w-5/6 md:w-1/2 xl:w-[40rem] max-h-[100px] xl:h-[5rem] border-2 border-[#D1D1D1]">
+            <button
+              onClick={() => setActiveq("Quran")}
+              className={`font-bold text-base xl:text-2xl flex-1 basis-0 rounded-full px-5 py-2 transition-all duration-200 ease-in-out ${
+                activeq === "Quran" || activeq === "" ? "Active-seted" : ""
+              } hover:flex-[2] hover:text-white hover:bg-[#004876]`}
+            >
+              Quran
+            </button>
+            <button
+              onClick={() => setActiveq("Podcast")}
+              className={`font-bold text-base xl:text-2xl flex-1 basis-0 rounded-full px-5 py-2 transition-all duration-200 ease-in-out ${
+                activeq === "Podcast" ? "Active-seted" : ""
+              } hover:flex-[2] hover:text-white hover:bg-[#004876]`}
+            >
+              Podcast
+            </button>
+            <button
+              onClick={() => setActiveq("Books")}
+              className={`whitespace-nowrap font-bold text-base xl:text-2xl flex-1 basis-0 rounded-full px-5 py-2 transition-all duration-2 00 ease-in-out ${
+                activeq === "Books" ? "Active-seted" : ""
+              } hover:flex-[2] hover:text-white hover:bg-[#004876]`}
+            >
+              Books
             </button>
           </div>
           <div className="hidden md:block relative mr-20">
@@ -195,7 +221,7 @@ export default function Main() {
         </div>
 
         <div className="flex flex-col items-center md:items-stretch md:flex-row  justify-between gap-3 mt-10">
-          <div className="flex flex-col items-center justify-between min-w-[350px] md:min-w-[300px] md:max-w-[350px] lg:max-w-[600px] lg:w-[45%] md:h-[55%]  gap-5 overflow-y-auto max-h-[550px]">
+          <div className="flex flex-col items-center justify-between w-full md:min-w-[300px] md:max-w-[350px] lg:max-w-[600px] lg:w-[45%] md:h-[55%]  gap-5 overflow-y-auto max-h-[550px]">
             <div className="select-none flex flex-col items-center w-[95%] md:w-[98%] overflow-y-scroll overflow-x-hidden scroll-smooth custom-scrollbar">
               <OrderCard
                 active={activeCardList}
@@ -209,7 +235,7 @@ export default function Main() {
               <img src="/Arrow.svg" alt="" />
             </div>
           </div>
-          <div className="flex justify-between min-w-[400px] md:min-w-[350px] lg:w-[55%] h-[50%]">
+          <div className="flex justify-between w-full md:min-w-[350px] lg:w-[55%] h-[50%]">
             <div className="w-[98%] px-5">
               <div className="flex flex-col border-b-3 pb-4 border-[#B8C2C8] items-center md:items-stretch  mt-10 md:mt-0 ">
                 <h5 className="font-medium text-2xl lg:text-4xl text-[#333333]">
