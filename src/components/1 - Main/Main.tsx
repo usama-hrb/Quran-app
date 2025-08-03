@@ -10,8 +10,8 @@ import books from "../data/books";
 export default function Main() {
   const [active, setActive] = useState("");
   const [activeq, setActiveq] = useState("");
-  const [activeCard, setactiveCard] = useState("05");
-  const [activeCardList, setactiveCardList] = useState("02");
+  const [activeCard, setactiveCard] = useState<number>(5);
+  const [activeCardList, setactiveCardList] = useState<number>(0);
 
   return (
     <main className="w-full flex flex-col items-center ">
@@ -139,20 +139,20 @@ export default function Main() {
           <div className="md:ml-4 mt-4 md:mt-5 2xl:mt-8 flex justify-center w-full items-center xl:gap-5 2xl:gap-12 gap-10">
             <span className="lg:hidden">
               <OrderCard
-                active={activeCardList}
-                setActive={setactiveCardList}
+                active={Number(activeCardList)}
+                setActive={(v) => setactiveCardList(Number(v))}
               />
             </span>
             <span className="hidden lg:block">
-              <Cards index={0} active={activeCard} setActive={setactiveCard} />
+              <Cards index={0} active={Number(activeCard)} setActive={(v) => setactiveCard(Number(v))} />
             </span>
             <div className="hidden lg:block border border-[#DADADA] h-140 "></div>
             <span className="hidden lg:block">
-              <Cards index={1} active={activeCard} setActive={setactiveCard} />
+              <Cards index={1} active={Number(activeCard)} setActive={(v) => setactiveCard(Number(v))} />
             </span>
             <div className="hidden lg:block border border-[#DADADA] h-140"></div>
             <span className="hidden lg:block">
-              <Cards index={2} active={activeCard} setActive={setactiveCard} />
+              <Cards index={2} active={Number(activeCard)} setActive={(v) => setactiveCard(Number(v))} />
             </span>
           </div>
         </section>

@@ -1,7 +1,13 @@
 
+import type { Dispatch, SetStateAction } from "react";
 import QuranSurahs from "../data/QuranSurahs";
 
-export default function OrderCard({ active, setActive }) {
+interface OrderCardProps {
+  active: number; // or string or whatever your active type is
+  setActive: Dispatch<SetStateAction<number>>;
+}
+
+export default function OrderCard({ active, setActive }: OrderCardProps) {
   return (
     <section className="flex flex-col gap-3 md:flex-row md:flex-wrap md:justify-center">
       {QuranSurahs.map((Surah) => (
