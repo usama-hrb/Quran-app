@@ -92,7 +92,7 @@ export default function Main() {
                 active === "Juz'" ? "Active-seted" : ""
               } hover:flex-[2] hover:text-white hover:bg-[#004876]`}
             >
-              Juz'
+              Juz&apos;
             </button>
             <button
               onClick={() => setActive("Order")}
