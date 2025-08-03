@@ -69,14 +69,14 @@ export default function Main() {
         </div>
       </div>
       {/* Quran part */}
-      <div className="mt-5 md:mt-8 lg:mt-12 2xl:mt-15 2xl:ml-20">
+      <div className="mt-5 md:mt-8 lg:mt-12 2xl:mt-15 ml-2 2xl:ml-20">
         <h2 className="font-bold font-Dm-sans text-[4vw] md:text-[4vw] 2xl:text-[3vw] text-[#333333]">
           Embark on your journey of faith
         </h2>
         <h2 className="font-bold font-Dm-sans text-[4vw] md:text-[4vw] 2xl:text-[3vw] text-[#333333]">
           And understanding
         </h2>
-        <div className="flex justify-between mt-5 2xl:mt-8">
+        <div className="flex justify-between mt-5 2xl:mt-8 mr-2 md:mr-0">
           <div className="transition-all duration-150 flex justify-between gap-2 border px-1 py-1 rounded-full w-[40rem] md:w-[24rem] 2xl:w-[28rem] border-2 border-[#D1D1D1]">
             <button
               onClick={() => setActive("Surah")}
