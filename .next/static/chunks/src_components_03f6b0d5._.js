@@ -150,126 +150,6 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
-"[project]/src/components/Cards/Cards.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
-"use strict";
-
-var { k: __turbopack_refresh__, m: module } = __turbopack_context__;
-{
-__turbopack_context__.s({
-    "default": ()=>Cards
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$data$2f$QuranSurahs$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/data/QuranSurahs.tsx [app-client] (ecmascript)");
-;
-;
-function Cards(param) {
-    let { index, active, setActive } = param;
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "flex flex-col gap-2",
-        children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$data$2f$QuranSurahs$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].filter((_, i)=>i % 3 == index).map((Surah)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                onClick: ()=>setActive(Surah.id),
-                className: "rounded-2xl cursor-pointer group overflow-hidden transition-all duration-150 flex flex-col xl:w-95 2xl:w-110 lg:w-70 pb-5 border-b-1 border-[#DADADA] text-xl hover:border hover:border-gray-50 hover:scale-[1.03] hover:rounded-2xl ".concat(active === Surah.id ? "card-active" : ""),
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "transform  ".concat(active === Surah.id ? "translate-y-1" : "", " transition duration-300 px-5 pt-5"),
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex justify-between items-start ",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex gap-2 text-2xl lg:text-xl",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-[#6E6E6E] ".concat(active === Surah.id ? "text-white" : ""),
-                                            children: [
-                                                Surah.id,
-                                                "."
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/components/Cards/Cards.tsx",
-                                            lineNumber: 17,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                            className: "",
-                                            children: Surah.surahName
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/Cards/Cards.tsx",
-                                            lineNumber: 18,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/components/Cards/Cards.tsx",
-                                    lineNumber: 16,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                    dir: "rtl",
-                                    className: "font-uthmani text-5xl lg:text-4xl",
-                                    children: Surah.surahNameArabic
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/Cards/Cards.tsx",
-                                    lineNumber: 20,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/components/Cards/Cards.tsx",
-                            lineNumber: 15,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex justify-between text-[#6E6E6E] lg:text-base ".concat(active === Surah.id ? "text-white" : ""),
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                    children: Surah.surahNameTranslation
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/Cards/Cards.tsx",
-                                    lineNumber: 25,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
-                                    className: "",
-                                    dir: "ltr",
-                                    children: [
-                                        Surah.totalAyah,
-                                        " Verses"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/components/Cards/Cards.tsx",
-                                    lineNumber: 26,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/components/Cards/Cards.tsx",
-                            lineNumber: 24,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/src/components/Cards/Cards.tsx",
-                    lineNumber: 13,
-                    columnNumber: 11
-                }, this)
-            }, Surah.id, false, {
-                fileName: "[project]/src/components/Cards/Cards.tsx",
-                lineNumber: 8,
-                columnNumber: 9
-            }, this))
-    }, void 0, false, {
-        fileName: "[project]/src/components/Cards/Cards.tsx",
-        lineNumber: 6,
-        columnNumber: 5
-    }, this);
-}
-_c = Cards;
-var _c;
-__turbopack_context__.k.register(_c, "Cards");
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
-}
-}}),
 "[project]/src/components/Cards/OrderCard.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -454,12 +334,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$data$2f
 ;
 const Ayah = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "flex flex-col gap-1 lg:gap-2",
+        className: "flex flex-col gap-2",
         children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$data$2f$ayahs$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].map((Ayah)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mt-5 flex flex-col gap-2 lg:gap-5",
+                className: "mt-5 flex flex-col gap-5",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "font-uthmani text-3xl lg:text-5xl",
+                        className: "font-uthmani text-5xl",
                         dir: "rtl",
                         children: Ayah.arabic1
                     }, void 0, false, {
@@ -468,7 +348,7 @@ const Ayah = ()=>{
                         columnNumber: 21
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-lg lg:text-2xl",
+                        className: "text-2xl",
                         children: Ayah.english
                     }, void 0, false, {
                         fileName: "[project]/src/components/Cards/Ayah.tsx",
@@ -505,14 +385,12 @@ __turbopack_context__.s({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Cards$2f$Cards$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Cards/Cards.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Cards$2f$OrderCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Cards/OrderCard.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Cards$2f$Ayah$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Cards/Ayah.tsx [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
-;
 ;
 ;
 ;
@@ -951,92 +829,6 @@ function Main() {
                                 fileName: "[project]/src/components/1 - Main/Main.tsx",
                                 lineNumber: 134,
                                 columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "md:ml-4 mt-4 md:mt-5 2xl:mt-8 flex justify-center w-full items-center xl:gap-5 2xl:gap-12 gap-10",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "lg:hidden",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Cards$2f$OrderCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                            active: activeCardList,
-                                            setActive: setactiveCardList
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/1 - Main/Main.tsx",
-                                            lineNumber: 141,
-                                            columnNumber: 15
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/1 - Main/Main.tsx",
-                                        lineNumber: 140,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "hidden lg:block",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Cards$2f$Cards$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                            index: 0,
-                                            active: activeCard,
-                                            setActive: setactiveCard
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/1 - Main/Main.tsx",
-                                            lineNumber: 147,
-                                            columnNumber: 15
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/1 - Main/Main.tsx",
-                                        lineNumber: 146,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "hidden lg:block border border-[#DADADA] h-140 "
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/1 - Main/Main.tsx",
-                                        lineNumber: 149,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "hidden lg:block",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Cards$2f$Cards$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                            index: 1,
-                                            active: activeCard,
-                                            setActive: setactiveCard
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/1 - Main/Main.tsx",
-                                            lineNumber: 151,
-                                            columnNumber: 15
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/1 - Main/Main.tsx",
-                                        lineNumber: 150,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "hidden lg:block border border-[#DADADA] h-140"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/1 - Main/Main.tsx",
-                                        lineNumber: 153,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "hidden lg:block",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Cards$2f$Cards$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                            index: 2,
-                                            active: activeCard,
-                                            setActive: setactiveCard
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/1 - Main/Main.tsx",
-                                            lineNumber: 155,
-                                            columnNumber: 15
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/1 - Main/Main.tsx",
-                                        lineNumber: 154,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/1 - Main/Main.tsx",
-                                lineNumber: 139,
-                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
@@ -1051,7 +843,7 @@ function Main() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "min-w-[380px] md:px-10 2xl:px-25 p-5 md:p-10 2xl:p-15 flex flex-col bg-[#D9E6EE] rounded-2xl lg:rounded-4xl mt-5 md:mt-8 lg:mt-12 2xl:mt-15 ml-8 2xl:ml-20 mr-8 2xl:mr-20",
+                className: "md:px-10 2xl:px-25 p-5 md:p-10 2xl:p-15 flex flex-col bg-[#D9E6EE] rounded-2xl lg:rounded-4xl mt-5 md:mt-8 lg:mt-12 2xl:mt-15 ml-8 2xl:ml-20 mr-8 2xl:mr-20",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                         className: "font-bold font-Dm-sans text-3xl md:text-5xl lg:text-6xl 2xl:text-7xl text-[#333333]",
@@ -1118,7 +910,7 @@ function Main() {
                         className: "flex flex-col items-center md:items-stretch md:flex-row  justify-between gap-3 mt-10",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex flex-col items-center justify-between min-w-[400px] md:min-w-[300px] md:max-w-[350px] lg:max-w-[600px] lg:w-[45%] md:h-[55%]  gap-5 overflow-y-auto max-h-[550px]",
+                                className: "flex flex-col items-center justify-between min-w-[400px] md:w-[45%] md:h-[55%]  gap-5 overflow-y-auto max-h-[550px]",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "select-none flex flex-col items-center w-[95%] md:w-[98%] overflow-y-scroll overflow-x-hidden scroll-smooth custom-scrollbar",
@@ -1168,7 +960,7 @@ function Main() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex justify-between min-w-[400px] md:min-w-[350px] lg:w-[55%] h-[50%]",
+                                className: "flex justify-between min-w-[400px] md:w-[55%] h-[50%]",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "w-[98%] px-5",
                                     children: [
@@ -1176,7 +968,7 @@ function Main() {
                                             className: "flex flex-col border-b-3 pb-4 border-[#B8C2C8] items-center md:items-stretch  mt-10 md:mt-0 ",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
-                                                    className: "font-medium text-2xl lg:text-4xl text-[#333333]",
+                                                    className: "font-medium text-4xl text-[#333333]",
                                                     children: "Reciter"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/1 - Main/Main.tsx",
@@ -1184,7 +976,7 @@ function Main() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-[#696969] text-lg lg:text-2xl font-medium ",
+                                                    className: "text-[#696969] text-2xl font-medium ",
                                                     children: [
                                                         "Omar Al Kazabri",
                                                         " ",
@@ -1221,7 +1013,7 @@ function Main() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "mt-5 h-[50%] overflow-x-hidden overflow-y-scroll scroll-smooth custom-scrollbar",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "px-3 lg:px-10 ",
+                                                        className: "px-10",
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Cards$2f$Ayah$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                             fileName: "[project]/src/components/1 - Main/Main.tsx",
                                                             lineNumber: 268,
@@ -1411,4 +1203,4 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }}),
 }]);
 
-//# sourceMappingURL=src_components_36a2d566._.js.map
+//# sourceMappingURL=src_components_03f6b0d5._.js.map
