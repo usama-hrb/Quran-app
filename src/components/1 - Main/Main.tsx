@@ -14,7 +14,7 @@ export default function Main() {
   const [activeCardList, setactiveCardList] = useState<number>(0);
 
   return (
-    <main className="w-full flex flex-col items-center ">
+    <main className="w-full md:flex md:flex-col md:items-center ">
       {/* main section cover ... */}
       <div className="min-h-full w-full flex flex-col bg-[url('/quran-bg.svg')]  border-red-400 bg-cover bg-center bg-no-repeat font-Dm-sans overflow-x-hidden">
         <div>
