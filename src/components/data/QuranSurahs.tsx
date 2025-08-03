@@ -1,6 +1,6 @@
 const QuranSurahs = [
   {
-    id: "01",
+    id: 1,
     surahName: "Al-Faatiha",
     surahNameArabic: "ٱلْفَاتِحَةُ",
     surahNameArabicLong: "سُورَةُ ٱلْفَاتِحَةِ",
@@ -9,7 +9,7 @@ const QuranSurahs = [
     totalAyah: 7,
   },
   {
-    id: "02",
+    id: 2,
     surahName: "Al-Baqara",
     surahNameArabic: "ٱلْبَقَرَةُ",
     surahNameArabicLong: "سورة البقرة",
@@ -18,7 +18,7 @@ const QuranSurahs = [
     totalAyah: 286,
   },
   {
-    id: "03",
+    id: 3,
     surahName: "Aal-i-Imraan",
     surahNameArabic: "ءَالِ عِمْرَانَ",
     surahNameArabicLong: "سورة آل عمران",
@@ -27,7 +27,7 @@ const QuranSurahs = [
     totalAyah: 200,
   },
   {
-    id: "04",
+    id: 4,
     surahName: "An-Nisaa",
     surahNameArabic: "ٱلنِّسَآءُ",
     surahNameArabicLong: "سورة النساء",
@@ -36,7 +36,7 @@ const QuranSurahs = [
     totalAyah: 176,
   },
   {
-    id: "05",
+    id: 5,
     surahName: "Al-Maaida",
     surahNameArabic: "ٱلْمَآئِدَةُ",
     surahNameArabicLong: "سورة المائدة",
@@ -45,7 +45,7 @@ const QuranSurahs = [
     totalAyah: 120,
   },
   {
-    id: "06",
+    id: 6,
     surahName: "Al-An'aam",
     surahNameArabic: "ٱلْأَنْعَامُ",
     surahNameArabicLong: "سورة الأنعام",
@@ -54,7 +54,7 @@ const QuranSurahs = [
     totalAyah: 165,
   },
   {
-    id: "07",
+    id: 7,
     surahName: "Al-A'raaf",
     surahNameArabic: "ٱلْأَعْرَافُ",
     surahNameArabicLong: "سورة الأعراف",
@@ -63,7 +63,7 @@ const QuranSurahs = [
     totalAyah: 206,
   },
   {
-    id: "08",
+    id: 8,
     surahName: "Al-Anfaal",
     surahNameArabic: "ٱلْأَنْفَالُ",
     surahNameArabicLong: "سورة الأنفال",
@@ -72,7 +72,7 @@ const QuranSurahs = [
     totalAyah: 75,
   },
   {
-    id: "09",
+    id: 9,
     surahName: "At-Tawba",
     surahNameArabic: "ٱلتَّوْبَةُ",
     surahNameArabicLong: "سورة التوبة",
@@ -81,7 +81,7 @@ const QuranSurahs = [
     totalAyah: 129,
   },
   {
-    id: "10",
+    id: 10,
     surahName: "Yunus",
     surahNameArabic: "يُونُسُ",
     surahNameArabicLong: "سورة يونس",
@@ -90,7 +90,7 @@ const QuranSurahs = [
     totalAyah: 109,
   },
   {
-    id: "11",
+    id: 11,
     surahName: "Hud",
     surahNameArabic: "هُودٌ",
     surahNameArabicLong: "سورة هود",
@@ -99,7 +99,7 @@ const QuranSurahs = [
     totalAyah: 123,
   },
   {
-    id: "12",
+    id: 12,
     surahName: "Yusuf",
     surahNameArabic: "يُوسُفُ",
     surahNameArabicLong: "سورة يوسف",
@@ -108,7 +108,7 @@ const QuranSurahs = [
     totalAyah: 111,
   },
   {
-    id: "13",
+    id: 13,
     surahName: "Ar-Ra'd",
     surahNameArabic: "ٱلرَّعْدُ",
     surahNameArabicLong: "سورة الرعد",
@@ -117,7 +117,7 @@ const QuranSurahs = [
     totalAyah: 43,
   },
   {
-    id: "14",
+    id: 14,
     surahName: "Ibrahim",
     surahNameArabic: "إِبْرَاهِيمُ",
     surahNameArabicLong: "سورة ابراهيم",
@@ -126,7 +126,7 @@ const QuranSurahs = [
     totalAyah: 52,
   },
   {
-    id: "15",
+    id: 15,
     surahName: "Al-Hijr",
     surahNameArabic: "ٱلْحِجْرُ",
     surahNameArabicLong: "سورة الحجر",
