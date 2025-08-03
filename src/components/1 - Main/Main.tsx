@@ -69,14 +69,14 @@ export default function Main() {
         </div>
       </div>
       {/* Quran part */}
-      <div className="mt-5 md:mt-8 lg:mt-12 2xl:mt-15 ml-8 2xl:ml-20">
+      <div className="mt-5 md:mt-8 lg:mt-12 2xl:mt-15 2xl:ml-20">
         <h2 className="font-bold font-Dm-sans text-[4vw] md:text-[4vw] 2xl:text-[3vw] text-[#333333]">
           Embark on your journey of faith
         </h2>
         <h2 className="font-bold font-Dm-sans text-[4vw] md:text-[4vw] 2xl:text-[3vw] text-[#333333]">
           And understanding
         </h2>
-        <div className="flex justify-between mt-5 2xl:mt-8 mr-8 md:mr-0">
+        <div className="flex justify-between mt-5 2xl:mt-8">
           <div className="transition-all duration-150 flex justify-between gap-2 border px-1 py-1 rounded-full w-[40rem] md:w-[24rem] 2xl:w-[28rem] border-2 border-[#D1D1D1]">
             <button
               onClick={() => setActive("Surah")}
@@ -195,7 +195,7 @@ export default function Main() {
         </div>
 
         <div className="flex flex-col items-center md:items-stretch md:flex-row  justify-between gap-3 mt-10">
-          <div className="flex flex-col items-center justify-between min-w-[400px] md:min-w-[300px] md:max-w-[350px] lg:max-w-[600px] lg:w-[45%] md:h-[55%]  gap-5 overflow-y-auto max-h-[550px]">
+          <div className="flex flex-col items-center justify-between min-w-[350px] md:min-w-[300px] md:max-w-[350px] lg:max-w-[600px] lg:w-[45%] md:h-[55%]  gap-5 overflow-y-auto max-h-[550px]">
             <div className="select-none flex flex-col items-center w-[95%] md:w-[98%] overflow-y-scroll overflow-x-hidden scroll-smooth custom-scrollbar">
               <OrderCard
                 active={activeCardList}
@@ -209,7 +209,6 @@ export default function Main() {
               <img src="/Arrow.svg" alt="" />
             </div>
           </div>
-          {/* <div className="md:hidden border border-2 border-[#DADADA] min-w-[400px] " ></div> */}
           <div className="flex justify-between min-w-[400px] md:min-w-[350px] lg:w-[55%] h-[50%]">
             <div className="w-[98%] px-5">
               <div className="flex flex-col border-b-3 pb-4 border-[#B8C2C8] items-center md:items-stretch  mt-10 md:mt-0 ">
