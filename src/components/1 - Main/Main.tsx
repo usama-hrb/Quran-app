@@ -158,7 +158,7 @@ export default function Main() {
         </section>
       </div>
       {/*  Second section */}
-      <div className="min-w-[380px] md:px-10 2xl:px-25 p-5 md:p-10 2xl:p-15 flex flex-col bg-[#D9E6EE] rounded-2xl lg:rounded-4xl mt-5 md:mt-8 lg:mt-12 2xl:mt-15 ml-8 2xl:ml-20 mr-8 2xl:mr-20">
+      <div className="w-full md:px-10 2xl:px-25 p-5 md:p-10 2xl:p-15 flex flex-col bg-[#D9E6EE] mt-5 md:mt-8 lg:mt-12 2xl:mt-15">
         <h2 className="font-bold font-Dm-sans text-3xl md:text-5xl lg:text-6xl 2xl:text-7xl text-[#333333]">
           Hear Islamic Podcasts
         </h2>
