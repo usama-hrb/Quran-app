@@ -16,9 +16,9 @@ export default function Main() {
   return (
     <main className="w-full md:flex md:flex-col md:items-center ">
       {/* main section cover ... */}
-      <div className="min-h-full w-full flex flex-col bg-[url('/quran-bg.svg')]  border-red-400 bg-cover bg-center bg-no-repeat font-Dm-sans overflow-x-hidden">
-        <div>
-          <div className="ml-10 md:ml-16 lg:ml-24 2xl:ml-40 flex flex-col items-start">
+      <div className="min-h-full w-full flex flex-col bg-[url('/quran-bg.svg')]  border-red-400 bg-cover bg-center bg-no-repeat font-Dm-sans overflow-x-hidden justify-center items-center">
+        <div className="max-w-[1440px]">
+          <div className="flex flex-col items-start ">
             <h1 className="mt-25 md:mt-25 lg:mt-30 2xl:mt-40 font-bold text-3xl md:text-5xl lg:text-6xl 2xl:text-7xl text-white">
               Quran, Podcasts, Fatwas
             </h1>
@@ -28,9 +28,9 @@ export default function Main() {
           </div>
           {/* Circle divider */}
           <div className="mt-4 md-10 lg:mt-14 2xl:mt-18 flex items-center justify-center gap-2 md:gap-6 lg:gap-10 2xl:gap-15">
-            <div className="w-1/3  2xl:w-[40%] border border-[#767676]" />
+            <div className="w-1/3  2xl:w-[50%] border border-[#767676]" />
             <img src={"/circle.svg"} className="w-[2rem] md:w-fit " />
-            <div className="w-1/3 2xl:w-[40%] border border-[#767676]" />
+            <div className="w-1/3 2xl:w-[50%] border border-[#767676]" />
           </div>
           <p className="text-white text-center text-[1rem] md:text-[1.5rem] lg:text-[2rem] mt-4 md:mt-8 2xl:mt-17">
             Read Quran, listen to podcasts, get fatwas, and <br />
@@ -38,7 +38,7 @@ export default function Main() {
           </p>
           {/* Quran Player */}
           <div className="flex flex-col items-center md:flex-row mt-4 md:mt-8 2xl:mt-15 mb-7 md:mb-25 2xl:mb-40 justify-center gap-3 md:gap-10 2xl:gap-20">
-            <div className="mb-8 md:mb-0 bg-white    h-35 md:h-52 rounded-2xl px-[20px] py-[6rem] md:py-[25px] font-Montserrat flex flex-col justify-center">
+            <div className="mb-8 md:mb-0 bg-white 2xl:w-110   h-35 md:h-52 rounded-2xl px-[20px] py-[6rem] md:py-[25px] font-Montserrat flex flex-col justify-center">
               <h3 className="text-[#6E7077]">Quran (Surah)</h3>
               <h3 className="text[#333333] mt-[.5] md:mt-1">
                 Surah Al-Fatihah (Omar Al Kazabri)
