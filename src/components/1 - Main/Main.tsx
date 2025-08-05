@@ -208,7 +208,7 @@ export default function Main() {
             <div className="mt-6 transition-all duration-150 flex justify-between gap-1 xl:gap-4 px-1 py-1 rounded-full min-w-80 w-5/6 md:w-1/2 xl:w-[30rem] max-h-[70px] xl:h-[5rem] border-3 border-[#004876]">
               <button
                 onClick={() => setActiveq("Quran")}
-                className={`font-bold text-base xl:text-xl flex-1 basis-0 rounded-full px-5 py-2 transition-all duration-200 ease-in-out ${
+                className={`text-[#004876] font-bold text-base xl:text-xl flex-1 basis-0 rounded-full px-5 py-2 transition-all duration-200 ease-in-out ${
                   activeq === "Quran" || activeq === "" ? "Active-seted" : ""
                 } hover:flex-[2] hover:text-white hover:bg-[#004876]`}
               >
@@ -216,7 +216,7 @@ export default function Main() {
               </button>
               <button
                 onClick={() => setActiveq("Podcast")}
-                className={`font-bold text-base xl:text-xl flex-1 basis-0 rounded-full px-5 py-2 transition-all duration-200 ease-in-out ${
+                className={` text-[#004876] font-bold text-base xl:text-xl flex-1 basis-0 rounded-full px-5 py-2 transition-all duration-200 ease-in-out ${
                   activeq === "Podcast" ? "Active-seted" : ""
                 } hover:flex-[2] hover:text-white hover:bg-[#004876]`}
               >
@@ -224,7 +224,7 @@ export default function Main() {
               </button>
               <button
                 onClick={() => setActiveq("Books")}
-                className={`whitespace-nowrap font-bold text-base xl:text-xl flex-1 basis-0 rounded-full px-5 py-2 transition-all duration-2 00 ease-in-out ${
+                className={`text-[#004876] whitespace-nowrap font-bold text-base xl:text-xl flex-1 basis-0 rounded-full px-5 py-2 transition-all duration-2 00 ease-in-out ${
                   activeq === "Books" ? "Active-seted" : ""
                 } hover:flex-[2] hover:text-white hover:bg-[#004876]`}
               >
