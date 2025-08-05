@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className=" relative">
-        <div className="max-w-[1920px] ">
+        <div className="">
 
         {/* <Header /> */}
         <Main />
