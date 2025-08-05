@@ -17,7 +17,7 @@ export default function Main() {
     <main className="w-full md:flex md:flex-col md:items-center ">
       {/* main section cover ... */}
       <div className="min-h-full w-full flex flex-col bg-[url('/quran-bg.svg')]  border-red-400 bg-cover bg-center bg-no-repeat font-Dm-sans overflow-x-hidden justify-center items-center">
-        <div className="max-w-[1440px]">
+        <div className="max-w-[1920px]">
           <div className="flex flex-col items-start ">
             <h1 className="mt-25 md:mt-25 lg:mt-30 2xl:mt-40 font-bold text-3xl md:text-5xl lg:text-6xl 2xl:text-7xl text-white">
               Quran, Podcasts, Fatwas
@@ -409,7 +409,7 @@ export default function Main() {
             </div>
           </button>
         </div>
-        <div className="flex flex-wrap gap-5 justify-center max-w-[1440px] mx-auto">
+        <div className="flex flex-wrap gap-5 justify-center max-w-[1920px] mx-auto">
           {books.map((book) => (
             <div
               className="flex flex-col md:w-50 md:h-auto lg:w-60 xl:w-auto"
